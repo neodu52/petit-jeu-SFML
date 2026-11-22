@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\json-subbuild\CMakeFiles\c7fd732ce34466770e0a3d2a10452183\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B47D069A-5433-3F76-99E7-C10F5B24FFF9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

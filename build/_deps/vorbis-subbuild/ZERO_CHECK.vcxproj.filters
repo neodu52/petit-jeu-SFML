@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\vorbis-subbuild\CMakeFiles\29e0ba0ab4827206756c981df7598dc0\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{539832E7-2C1F-3BC9-8A60-02139FFF70A7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

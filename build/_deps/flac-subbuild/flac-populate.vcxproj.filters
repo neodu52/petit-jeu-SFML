@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\flac-subbuild\CMakeFiles\951cc689d5aed61a69c31448056618a5\flac-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\flac-subbuild\CMakeFiles\951cc689d5aed61a69c31448056618a5\flac-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\flac-subbuild\CMakeFiles\951cc689d5aed61a69c31448056618a5\flac-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\flac-subbuild\CMakeFiles\951cc689d5aed61a69c31448056618a5\flac-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\flac-subbuild\CMakeFiles\951cc689d5aed61a69c31448056618a5\flac-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\flac-subbuild\CMakeFiles\951cc689d5aed61a69c31448056618a5\flac-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\flac-subbuild\CMakeFiles\951cc689d5aed61a69c31448056618a5\flac-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\flac-subbuild\CMakeFiles\951cc689d5aed61a69c31448056618a5\flac-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\flac-subbuild\CMakeFiles\cf3197c92093679aa0ddc1234828a0c3\flac-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\flac-subbuild\CMakeFiles\604202ec61ceef5ee76d7fb1e0e3adde\flac-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\flac-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\flac-subbuild\CMakeFiles\flac-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E7259393-DAC6-3644-AE31-CD24CBC3BA11}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

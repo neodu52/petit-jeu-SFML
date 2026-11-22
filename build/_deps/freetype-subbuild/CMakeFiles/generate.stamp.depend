@@ -1,0 +1,20 @@
+# CMake generation dependency list for this directory.
+C:/Users/PC/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0/LocalCache/local-packages/Python38/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeGenericSystem.cmake
+C:/Users/PC/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0/LocalCache/local-packages/Python38/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeInitializeConfigs.cmake
+C:/Users/PC/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0/LocalCache/local-packages/Python38/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeSystemSpecificInformation.cmake
+C:/Users/PC/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0/LocalCache/local-packages/Python38/site-packages/cmake/data/share/cmake-3.31/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Users/PC/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0/LocalCache/local-packages/Python38/site-packages/cmake/data/share/cmake-3.31/Modules/ExternalProject.cmake
+C:/Users/PC/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0/LocalCache/local-packages/Python38/site-packages/cmake/data/share/cmake-3.31/Modules/ExternalProject/PatchInfo.txt.in
+C:/Users/PC/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0/LocalCache/local-packages/Python38/site-packages/cmake/data/share/cmake-3.31/Modules/ExternalProject/RepositoryInfo.txt.in
+C:/Users/PC/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0/LocalCache/local-packages/Python38/site-packages/cmake/data/share/cmake-3.31/Modules/ExternalProject/UpdateInfo.txt.in
+C:/Users/PC/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0/LocalCache/local-packages/Python38/site-packages/cmake/data/share/cmake-3.31/Modules/ExternalProject/cfgcmd.txt.in
+C:/Users/PC/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0/LocalCache/local-packages/Python38/site-packages/cmake/data/share/cmake-3.31/Modules/ExternalProject/gitclone.cmake.in
+C:/Users/PC/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0/LocalCache/local-packages/Python38/site-packages/cmake/data/share/cmake-3.31/Modules/ExternalProject/gitupdate.cmake.in
+C:/Users/PC/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0/LocalCache/local-packages/Python38/site-packages/cmake/data/share/cmake-3.31/Modules/ExternalProject/mkdirs.cmake.in
+C:/Users/PC/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0/LocalCache/local-packages/Python38/site-packages/cmake/data/share/cmake-3.31/Modules/ExternalProject/shared_internal_commands.cmake
+C:/Users/PC/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0/LocalCache/local-packages/Python38/site-packages/cmake/data/share/cmake-3.31/Modules/Platform/Windows-Initialize.cmake
+C:/Users/PC/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0/LocalCache/local-packages/Python38/site-packages/cmake/data/share/cmake-3.31/Modules/Platform/Windows.cmake
+C:/Users/PC/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0/LocalCache/local-packages/Python38/site-packages/cmake/data/share/cmake-3.31/Modules/Platform/WindowsPaths.cmake
+F:/code/mes_truc_cpp/petitjeu_sfml/build/_deps/freetype-subbuild/CMakeFiles/3.31.1/CMakeSystem.cmake
+F:/code/mes_truc_cpp/petitjeu_sfml/build/_deps/freetype-subbuild/CMakeLists.txt
+F:/code/mes_truc_cpp/petitjeu_sfml/build/_deps/freetype-subbuild/freetype-populate-prefix/tmp/freetype-populate-mkdirs.cmake

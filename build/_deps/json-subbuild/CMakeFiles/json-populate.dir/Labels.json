@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "F:/code/mes_truc_cpp/petitjeu_sfml/build/_deps/json-subbuild/CMakeFiles/json-populate"
+		},
+		{
+			"file" : "F:/code/mes_truc_cpp/petitjeu_sfml/build/_deps/json-subbuild/CMakeFiles/c7fd732ce34466770e0a3d2a10452183/json-populate.rule"
+		},
+		{
+			"file" : "F:/code/mes_truc_cpp/petitjeu_sfml/build/_deps/json-subbuild/CMakeFiles/a593f17636b5bd9f2ee315ca0a585a2f/json-populate-complete.rule"
+		},
+		{
+			"file" : "F:/code/mes_truc_cpp/petitjeu_sfml/build/_deps/json-subbuild/CMakeFiles/d90c343f30004b04f80a68c6ae694eb3/json-populate-build.rule"
+		},
+		{
+			"file" : "F:/code/mes_truc_cpp/petitjeu_sfml/build/_deps/json-subbuild/CMakeFiles/d90c343f30004b04f80a68c6ae694eb3/json-populate-configure.rule"
+		},
+		{
+			"file" : "F:/code/mes_truc_cpp/petitjeu_sfml/build/_deps/json-subbuild/CMakeFiles/d90c343f30004b04f80a68c6ae694eb3/json-populate-download.rule"
+		},
+		{
+			"file" : "F:/code/mes_truc_cpp/petitjeu_sfml/build/_deps/json-subbuild/CMakeFiles/d90c343f30004b04f80a68c6ae694eb3/json-populate-install.rule"
+		},
+		{
+			"file" : "F:/code/mes_truc_cpp/petitjeu_sfml/build/_deps/json-subbuild/CMakeFiles/d90c343f30004b04f80a68c6ae694eb3/json-populate-mkdir.rule"
+		},
+		{
+			"file" : "F:/code/mes_truc_cpp/petitjeu_sfml/build/_deps/json-subbuild/CMakeFiles/d90c343f30004b04f80a68c6ae694eb3/json-populate-patch.rule"
+		},
+		{
+			"file" : "F:/code/mes_truc_cpp/petitjeu_sfml/build/_deps/json-subbuild/CMakeFiles/d90c343f30004b04f80a68c6ae694eb3/json-populate-test.rule"
+		},
+		{
+			"file" : "F:/code/mes_truc_cpp/petitjeu_sfml/build/_deps/json-subbuild/CMakeFiles/d90c343f30004b04f80a68c6ae694eb3/json-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"json-populate"
+		],
+		"name" : "json-populate"
+	}
+}

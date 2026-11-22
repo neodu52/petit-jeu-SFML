@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\json-subbuild\CMakeFiles\d90c343f30004b04f80a68c6ae694eb3\json-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\json-subbuild\CMakeFiles\d90c343f30004b04f80a68c6ae694eb3\json-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\json-subbuild\CMakeFiles\d90c343f30004b04f80a68c6ae694eb3\json-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\json-subbuild\CMakeFiles\d90c343f30004b04f80a68c6ae694eb3\json-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\json-subbuild\CMakeFiles\d90c343f30004b04f80a68c6ae694eb3\json-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\json-subbuild\CMakeFiles\d90c343f30004b04f80a68c6ae694eb3\json-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\json-subbuild\CMakeFiles\d90c343f30004b04f80a68c6ae694eb3\json-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\json-subbuild\CMakeFiles\d90c343f30004b04f80a68c6ae694eb3\json-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\json-subbuild\CMakeFiles\a593f17636b5bd9f2ee315ca0a585a2f\json-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\json-subbuild\CMakeFiles\c7fd732ce34466770e0a3d2a10452183\json-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\json-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\json-subbuild\CMakeFiles\json-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B47D069A-5433-3F76-99E7-C10F5B24FFF9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

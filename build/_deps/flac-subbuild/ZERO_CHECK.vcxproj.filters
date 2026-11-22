@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\flac-subbuild\CMakeFiles\604202ec61ceef5ee76d7fb1e0e3adde\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E7259393-DAC6-3644-AE31-CD24CBC3BA11}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B22571AA-9A33-31CC-B485-D12B06A7F944}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\code\mes_truc_cpp\petitjeu_sfml\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/code/mes_truc_cpp/petitjeu_sfml/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\bin\cmake.exe -SF:/code/mes_truc_cpp/petitjeu_sfml -BF:/code/mes_truc_cpp/petitjeu_sfml/build --check-stamp-file F:/code/mes_truc_cpp/petitjeu_sfml/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\ExternalProject\shared_internal_commands.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\FetchContent.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\FetchContent\CMakeLists.cmake.in;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\FindGit.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;F:\code\mes_truc_cpp\petitjeu_sfml\build\CMakeFiles\3.31.1\CMakeCXXCompiler.cmake;F:\code\mes_truc_cpp\petitjeu_sfml\build\CMakeFiles\3.31.1\CMakeRCCompiler.cmake;F:\code\mes_truc_cpp\petitjeu_sfml\build\CMakeFiles\3.31.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\code\mes_truc_cpp\petitjeu_sfml\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/code/mes_truc_cpp/petitjeu_sfml/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\bin\cmake.exe -SF:/code/mes_truc_cpp/petitjeu_sfml -BF:/code/mes_truc_cpp/petitjeu_sfml/build --check-stamp-file F:/code/mes_truc_cpp/petitjeu_sfml/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\ExternalProject\shared_internal_commands.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\FetchContent.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\FetchContent\CMakeLists.cmake.in;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\FindGit.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;F:\code\mes_truc_cpp\petitjeu_sfml\build\CMakeFiles\3.31.1\CMakeCXXCompiler.cmake;F:\code\mes_truc_cpp\petitjeu_sfml\build\CMakeFiles\3.31.1\CMakeRCCompiler.cmake;F:\code\mes_truc_cpp\petitjeu_sfml\build\CMakeFiles\3.31.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\code\mes_truc_cpp\petitjeu_sfml\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/code/mes_truc_cpp/petitjeu_sfml/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\bin\cmake.exe -SF:/code/mes_truc_cpp/petitjeu_sfml -BF:/code/mes_truc_cpp/petitjeu_sfml/build --check-stamp-file F:/code/mes_truc_cpp/petitjeu_sfml/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\ExternalProject\shared_internal_commands.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\FetchContent.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\FetchContent\CMakeLists.cmake.in;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\FindGit.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;F:\code\mes_truc_cpp\petitjeu_sfml\build\CMakeFiles\3.31.1\CMakeCXXCompiler.cmake;F:\code\mes_truc_cpp\petitjeu_sfml\build\CMakeFiles\3.31.1\CMakeRCCompiler.cmake;F:\code\mes_truc_cpp\petitjeu_sfml\build\CMakeFiles\3.31.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\code\mes_truc_cpp\petitjeu_sfml\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/code/mes_truc_cpp/petitjeu_sfml/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\bin\cmake.exe -SF:/code/mes_truc_cpp/petitjeu_sfml -BF:/code/mes_truc_cpp/petitjeu_sfml/build --check-stamp-file F:/code/mes_truc_cpp/petitjeu_sfml/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\CMakeCXXInformation.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\CMakeGenericSystem.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\CMakeInitializeConfigs.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\CMakeLanguageInformation.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\CMakeRCInformation.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Compiler\MSVC-CXX.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Compiler\MSVC.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\ExternalProject\shared_internal_commands.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\FetchContent.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\FetchContent\CMakeLists.cmake.in;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\FindGit.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\FindPackageMessage.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Platform\Windows-Initialize.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Platform\Windows-MSVC.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Platform\Windows.cmake;C:\Users\PC\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0\LocalCache\local-packages\Python38\site-packages\cmake\data\share\cmake-3.31\Modules\Platform\WindowsPaths.cmake;F:\code\mes_truc_cpp\petitjeu_sfml\build\CMakeFiles\3.31.1\CMakeCXXCompiler.cmake;F:\code\mes_truc_cpp\petitjeu_sfml\build\CMakeFiles\3.31.1\CMakeRCCompiler.cmake;F:\code\mes_truc_cpp\petitjeu_sfml\build\CMakeFiles\3.31.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\code\mes_truc_cpp\petitjeu_sfml\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\ZERO_CHECK.vcxproj">
+      <Project>{2D10AF72-D64A-38EC-9587-6111E9642D51}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\flac-build\src\libFLAC\FLAC.vcxproj">
+      <Project>{38B65733-4F3B-301C-A4D7-932A7697F8F5}</Project>
+      <Name>FLAC</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\MonJeu.vcxproj">
+      <Project>{B6D91D33-BD22-3C2B-A81F-129F49630B42}</Project>
+      <Name>MonJeu</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\freetype-build\freetype.vcxproj">
+      <Project>{FB8AF2B4-4827-3AC3-828B-71A4AA530A2F}</Project>
+      <Name>freetype</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\ogg-build\ogg.vcxproj">
+      <Project>{E71773B8-E0F7-3711-909A-AEFE3977103B}</Project>
+      <Name>ogg</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\sfml-build\src\SFML\Audio\sfml-audio.vcxproj">
+      <Project>{355F5EC0-9E9A-3078-9A06-E4682E66EB78}</Project>
+      <Name>sfml-audio</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\sfml-build\src\SFML\Graphics\sfml-graphics.vcxproj">
+      <Project>{653535CF-E7D2-33AD-A2FD-1DA2220F02C8}</Project>
+      <Name>sfml-graphics</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\sfml-build\src\SFML\Main\sfml-main.vcxproj">
+      <Project>{B68017A1-C63B-3ECC-9E2A-CE51322B8B8D}</Project>
+      <Name>sfml-main</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\sfml-build\src\SFML\Network\sfml-network.vcxproj">
+      <Project>{676266C9-248B-3F8D-9BBF-E2696BB656D8}</Project>
+      <Name>sfml-network</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\sfml-build\src\SFML\System\sfml-system.vcxproj">
+      <Project>{CCD5E751-9B20-3487-B3B1-628DE1990527}</Project>
+      <Name>sfml-system</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\sfml-build\src\SFML\Window\sfml-window.vcxproj">
+      <Project>{5CE377E1-2526-359E-9A83-2CCE6714CED4}</Project>
+      <Name>sfml-window</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\vorbis-build\lib\vorbis.vcxproj">
+      <Project>{BE832034-A7CA-3FD2-9A47-AB192CFC06BA}</Project>
+      <Name>vorbis</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\vorbis-build\lib\vorbisenc.vcxproj">
+      <Project>{A706C630-CAD1-33CF-891B-63E70DD9B0B1}</Project>
+      <Name>vorbisenc</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\code\mes_truc_cpp\petitjeu_sfml\build\_deps\vorbis-build\lib\vorbisfile.vcxproj">
+      <Project>{C1DEB507-88EF-3461-8698-89A7A2D7B2A5}</Project>
+      <Name>vorbisfile</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

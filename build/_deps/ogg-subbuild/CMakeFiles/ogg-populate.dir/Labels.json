@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "F:/code/mes_truc_cpp/petitjeu_sfml/build/_deps/ogg-subbuild/CMakeFiles/ogg-populate"
+		},
+		{
+			"file" : "F:/code/mes_truc_cpp/petitjeu_sfml/build/_deps/ogg-subbuild/CMakeFiles/ac5c5c6d037b05d1af6c2824374d19a8/ogg-populate.rule"
+		},
+		{
+			"file" : "F:/code/mes_truc_cpp/petitjeu_sfml/build/_deps/ogg-subbuild/CMakeFiles/6f2d0bca1bc4af4bd6a95a94ea333d61/ogg-populate-complete.rule"
+		},
+		{
+			"file" : "F:/code/mes_truc_cpp/petitjeu_sfml/build/_deps/ogg-subbuild/CMakeFiles/c3324332c210f3752138935fc87d2aed/ogg-populate-build.rule"
+		},
+		{
+			"file" : "F:/code/mes_truc_cpp/petitjeu_sfml/build/_deps/ogg-subbuild/CMakeFiles/c3324332c210f3752138935fc87d2aed/ogg-populate-configure.rule"
+		},
+		{
+			"file" : "F:/code/mes_truc_cpp/petitjeu_sfml/build/_deps/ogg-subbuild/CMakeFiles/c3324332c210f3752138935fc87d2aed/ogg-populate-download.rule"
+		},
+		{
+			"file" : "F:/code/mes_truc_cpp/petitjeu_sfml/build/_deps/ogg-subbuild/CMakeFiles/c3324332c210f3752138935fc87d2aed/ogg-populate-install.rule"
+		},
+		{
+			"file" : "F:/code/mes_truc_cpp/petitjeu_sfml/build/_deps/ogg-subbuild/CMakeFiles/c3324332c210f3752138935fc87d2aed/ogg-populate-mkdir.rule"
+		},
+		{
+			"file" : "F:/code/mes_truc_cpp/petitjeu_sfml/build/_deps/ogg-subbuild/CMakeFiles/c3324332c210f3752138935fc87d2aed/ogg-populate-patch.rule"
+		},
+		{
+			"file" : "F:/code/mes_truc_cpp/petitjeu_sfml/build/_deps/ogg-subbuild/CMakeFiles/c3324332c210f3752138935fc87d2aed/ogg-populate-test.rule"
+		},
+		{
+			"file" : "F:/code/mes_truc_cpp/petitjeu_sfml/build/_deps/ogg-subbuild/CMakeFiles/c3324332c210f3752138935fc87d2aed/ogg-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"ogg-populate"
+		],
+		"name" : "ogg-populate"
+	}
+}
