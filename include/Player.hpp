@@ -7,7 +7,8 @@ class Player
 private:
     sf::RectangleShape m_shape;
     float m_speed;
-
+    sf::Texture m_texture;
+    sf::Sprite  m_sprite;
 
 public:
     Player();

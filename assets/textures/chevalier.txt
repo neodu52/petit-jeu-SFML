@@ -1,0 +1,2 @@
+sur x 1 pixel de chaque coté total = 30
+sur y au dessus 6 en dessous 3 total = 9
