@@ -1,3 +1,0 @@
-F:/code/mes_truc_cpp/petitjeu_sfml/build/_deps/freetype-subbuild/CMakeFiles/freetype-populate.dir
-F:/code/mes_truc_cpp/petitjeu_sfml/build/_deps/freetype-subbuild/CMakeFiles/ALL_BUILD.dir
-F:/code/mes_truc_cpp/petitjeu_sfml/build/_deps/freetype-subbuild/CMakeFiles/ZERO_CHECK.dir

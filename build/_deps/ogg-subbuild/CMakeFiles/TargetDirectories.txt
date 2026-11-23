@@ -1,3 +1,0 @@
-F:/code/mes_truc_cpp/petitjeu_sfml/build/_deps/ogg-subbuild/CMakeFiles/ogg-populate.dir
-F:/code/mes_truc_cpp/petitjeu_sfml/build/_deps/ogg-subbuild/CMakeFiles/ALL_BUILD.dir
-F:/code/mes_truc_cpp/petitjeu_sfml/build/_deps/ogg-subbuild/CMakeFiles/ZERO_CHECK.dir

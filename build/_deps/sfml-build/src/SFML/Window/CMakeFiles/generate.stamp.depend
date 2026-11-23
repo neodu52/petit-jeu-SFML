@@ -1,8 +1,0 @@
-# CMake generation dependency list for this directory.
-C:/Users/PC/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0/LocalCache/local-packages/Python38/site-packages/cmake/data/share/cmake-3.31/Modules/CMakePackageConfigHelpers.cmake
-C:/Users/PC/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0/LocalCache/local-packages/Python38/site-packages/cmake/data/share/cmake-3.31/Modules/FindOpenGL.cmake
-C:/Users/PC/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0/LocalCache/local-packages/Python38/site-packages/cmake/data/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake
-C:/Users/PC/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0/LocalCache/local-packages/Python38/site-packages/cmake/data/share/cmake-3.31/Modules/FindPackageMessage.cmake
-C:/Users/PC/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.8_qbz5n2kfra8p0/LocalCache/local-packages/Python38/site-packages/cmake/data/share/cmake-3.31/Modules/WriteBasicConfigVersionFile.cmake
-F:/code/mes_truc_cpp/petitjeu_sfml/build/_deps/sfml-src/src/SFML/Window/CMakeLists.txt
-F:/code/mes_truc_cpp/petitjeu_sfml/build/_deps/sfml-src/src/SFML/Window/Dependencies.cmake.in
