@@ -25,4 +25,5 @@ public:
     bool loadFromFile(const std::string& path);
     bool isSolid(int x, int y) const;
     bool isSolidAt(sf::Vector2f worldPos) const;
+    bool isSolidRect(sf::Vector2f center, sf::Vector2f halfSize) const;
 };

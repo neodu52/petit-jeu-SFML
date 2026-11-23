@@ -87,3 +87,23 @@ bool Map::isSolidAt(sf::Vector2f worldPos) const
     int ty = static_cast<int>(std::floor(worldPos.y / TILE_SIZE));
     return isSolid(tx, ty);
 }
+
+bool Map::isSolidRect(sf::Vector2f center, sf::Vector2f halfSize) const
+{
+    const float eps = 0.01f;
+    float hx = halfSize.x - eps;
+    float hy = halfSize.y - eps;
+
+    for (float sx : {-1.f, 1.f})
+        for (float sy : {-1.f, 1.f})
+            if (isSolidAt({center.x + sx * hx, center.y + sy * hy}) || isSolidAt({center.x - sx * hx, center.y + sy * hy}))
+                return true;
+
+    // à toi : tester les 4 coins avec isSolidAt
+    // haut-gauche : {center.x - hx, center.y - hy}
+    // haut-droite : {center.x + hx, center.y - hy}
+    // ...
+    // renvoyer true dès qu'un coin est solide, false sinon
+
+    return false;
+}

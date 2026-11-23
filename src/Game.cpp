@@ -25,11 +25,9 @@ void Game::run()
 
 void Game::update(float dt)
 {
-    m_player.update(dt);
+    m_player.update(dt, m_map);
     m_camera.follow(m_player.getPosition());
-    
-    if (m_map.isSolidAt(m_player.getPosition()))
-        std::cout << "bloque\n";    // après la mise à jour du joueur
+
 }
 
 void Game::processEvents()

@@ -1,5 +1,6 @@
 # pragma once
 #include <SFML/Graphics.hpp>
+#include "Map.hpp"
 
 class Player
 {
@@ -10,7 +11,9 @@ private:
 
 public:
     Player();
-    void update(float dt);
+
+    void update(float dt, const Map& map);
     void draw(sf::RenderWindow& window);
     sf::Vector2f getPosition() const;
+
 };

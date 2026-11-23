@@ -7,7 +7,7 @@ Player::Player() : m_shape({40.f, 40.f}), m_speed(300.f)
     m_shape.setPosition({400.f, 300.f});
 }
 
-void Player::update(float dt)
+void Player::update(float dt, const Map& map)
 {
     sf::Vector2f direction{0.f, 0.f};
     if (sf::Keyboard::isKeyPressed(sf::Keyboard::Scancode::W))
@@ -30,7 +30,18 @@ void Player::update(float dt)
     if (direction != sf::Vector2f(0.f, 0.f))    // normalisation du vecteur pour evité les déplacement plus rapide en diagonal
         direction = direction.normalized();      
     
-    m_shape.move(direction * m_speed * dt);
+    sf::Vector2f movement = direction * m_speed * dt;
+    sf::Vector2f half = m_shape.getSize() / 2.f;
+
+    // axe X
+    m_shape.move({movement.x, 0.f});
+    if (map.isSolidRect(m_shape.getPosition(), half))
+        m_shape.move({-movement.x, 0.f});   // on annule
+
+    // axe Y
+    m_shape.move({0.f, movement.y});
+    if (map.isSolidRect(m_shape.getPosition(), half))
+        m_shape.move({0.f, -movement.y});
 }
 
 void Player::draw(sf::RenderWindow& window)
