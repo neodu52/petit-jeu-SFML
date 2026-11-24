@@ -37,29 +37,41 @@ void Player::update(float dt, const Map& map)
     {
         direction.x += 1.f;
     }
-    if (direction != sf::Vector2f(0.f, 0.f))    // normalisation du vecteur pour evité les déplacement plus rapide en diagonal
-        direction = direction.normalized();  
-    if (direction != sf::Vector2f(0.f, 0.f))
-        m_sprite.setRotation(direction.angle() + sf::degrees(90.f));
+
+    sf::Vector2f aim{0.f, 0.f};
 
     if (sf::Joystick::isConnected(0))
     {
+        // stick gauche : déplacement
         float jx = sf::Joystick::getAxisPosition(0, sf::Joystick::Axis::X);
         float jy = sf::Joystick::getAxisPosition(0, sf::Joystick::Axis::Y);
-        // valeurs entre -100 et +100
-        sf::Vector2f stick(jx / 100.f, jy / 100.f);   // ramené entre -1 et 1
+        sf::Vector2f stick(jx / 100.f, jy / 100.f);
         if (stick.length() > 0.2f)
             direction += stick;
-        if (direction.lengthSquared() > 1.f)
-            direction = direction.normalized();
-        if (direction != sf::Vector2f(0.f, 0.f))
-            m_sprite.setRotation(direction.angle() + sf::degrees(90.f));
+
+        // stick droit : visée
+        float ax = sf::Joystick::getAxisPosition(0, sf::Joystick::Axis::Z);
+        float ay = sf::Joystick::getAxisPosition(0, sf::Joystick::Axis::R);
+        sf::Vector2f stickDroit(ax / 100.f, ay / 100.f);
+        if (stickDroit.length() > 0.3f)
+            aim = stickDroit;
+
     }
+
+    // 2. normalisation unique, une fois tout lu
+    if (direction.lengthSquared() > 1.f)
+        direction = direction.normalized();
+
+    // 3. orientation : stick droit prioritaire, sinon la marche
+    if (aim != sf::Vector2f(0.f, 0.f))
+        m_facing = aim.normalized();
+    else if (direction != sf::Vector2f(0.f, 0.f))
+        m_facing = direction.normalized();
+
+    m_sprite.setRotation(m_facing.angle() + sf::degrees(90.f));
 
     
     sf::Vector2f movement = direction * m_speed * dt;
-    sf::Vector2f m_halfSize{16.f, 16.f};
-
     // axe X
     m_sprite.move({movement.x, 0.f});
     if (map.isSolidRect(m_sprite.getPosition(), m_halfSize))

@@ -62,3 +62,8 @@ amélioration du déplacement
 Spawn des ennemie
 Levels
 cinematique
+
+l'arraigner s'arrete un peu avant le perso et nous saute dessus, elle peut etre contré par un coup
+au bon moment ou bien une esquive du joueur.
+
+Le goblin est un monstre des plus classique il avance vers nous et nous attaque quand il est assez proche

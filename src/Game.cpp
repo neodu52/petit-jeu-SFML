@@ -4,7 +4,7 @@
 Game::Game() : m_window(sf::VideoMode({1920, 1080}), "mon jeu"), m_camera(sf::Vector2f(m_window.getSize()))
 {
     m_window.setFramerateLimit(120);
-    m_marker.setPosition({100.f, 100.f});
+    m_ennemies.emplace_back(sf::Vector2f{600.f, 300.f}, 30.f, 120.f, 10.f);
 }
 
 
@@ -27,6 +27,7 @@ void Game::update(float dt)
 {
     m_player.update(dt, m_map);
     m_camera.follow(m_player.getPosition());
+    for (auto& e : m_ennemies) e.update(dt, m_player.getPosition(), m_map);
 
 }
 
@@ -51,6 +52,7 @@ void Game::render()
     m_window.clear(sf::Color::Black);
     m_camera.apply(m_window);
     m_map.draw(m_window);
+    for (auto& e : m_ennemies) e.draw(m_window);
     m_player.draw(m_window);
     m_window.display();
 }

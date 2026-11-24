@@ -3,6 +3,7 @@
 #include "Player.hpp"
 #include "Camera.hpp"
 #include "Map.hpp"
+#include "Ennemies.hpp"
 #include <iostream>
 
 class Game
@@ -16,6 +17,7 @@ private:
     Camera m_camera;
     sf::RectangleShape m_marker;
     Map m_map;
+    std::vector<Ennemies> m_ennemies;
 
 public:
     Game();

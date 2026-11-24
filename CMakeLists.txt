@@ -21,7 +21,8 @@ add_executable(MonJeu
     src/Game.cpp
     src/Player.cpp
     src/Camera.cpp
-    src/Map.cpp)
+    src/Map.cpp
+    src/Ennemies.cpp)
 
 target_include_directories(MonJeu PRIVATE include)
 target_link_libraries(MonJeu PRIVATE SFML::Graphics nlohmann_json::nlohmann_json)
