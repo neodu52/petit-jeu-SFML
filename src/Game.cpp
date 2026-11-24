@@ -1,7 +1,7 @@
 #include "Game.hpp"
 
 
-Game::Game() : m_window(sf::VideoMode({800, 600}), "mon jeu"), m_camera(sf::Vector2f(m_window.getSize()))
+Game::Game() : m_window(sf::VideoMode({1920, 1080}), "mon jeu"), m_camera(sf::Vector2f(m_window.getSize()))
 {
     m_window.setFramerateLimit(120);
     m_marker.setPosition({100.f, 100.f});

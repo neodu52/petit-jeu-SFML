@@ -3,6 +3,9 @@ Utilisation de Tiled pour les
 
 Un chevalier qui défend son village contre des attaques de monstres.
 Les monstres arrivent par vague que le joueur peut repousser via dif armes.
+
+
+
 {
 	épee	: semie rapide avec degat en arc de cercle
 	lance	: tape tout droit mais loins vitesse semie rapide
@@ -23,12 +26,11 @@ MonJeu/
 │
 ├── assets/
 │   ├── textures/
-│   │   ├── tileset.png	// pas encore réalisé
-│   │   └── player.png	// pas encore réalisé
+│   │   ├── tileset.png	// en cour
+│   │   └── player.png	// fait
 │   │
 │   ├── maps/
-│   │   ├── niveau1.tmj	// pas encore réalisé
-│   │   └── niveau2.tmj	// pas encore réalisé
+│   │   └── niveau1.tmj	// en cour
 │   │
 │   └── fonts/
 │
@@ -47,3 +49,16 @@ MonJeu/
 │
 ├── CMakeLists.txt
 └── README.md#
+
+
+Reste a faire : 
+enemies
+armes
+annimation
+marchant
+menus
+Maps (en cour)
+amélioration du déplacement
+Spawn des ennemie
+Levels
+cinematique
