@@ -4,9 +4,12 @@
 Game::Game() : m_window(sf::VideoMode({1920, 1080}), "mon jeu"), m_camera(sf::Vector2f(m_window.getSize()))
 {
     m_window.setFramerateLimit(120);
-    m_ennemies.emplace_back(sf::Vector2f{600.f, 300.f}, 30.f, 120.f, 10.f);
-}
+    if (!m_goblinTexture.loadFromFile("assets/textures/gobelin.png"))
+    std::cerr << "Texture gobelin introuvable\n";
 
+    m_ennemies.emplace_back(m_goblinTexture, sf::Vector2f{600.f, 300.f}, 30.f, 120.f, 10.f);
+    m_ennemies.emplace_back(m_goblinTexture, sf::Vector2f{100.f, 100.f}, 30.f, 120.f, 10.f);
+}
 
 void Game::run()
 {

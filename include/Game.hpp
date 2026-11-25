@@ -17,6 +17,7 @@ private:
     Camera m_camera;
     sf::RectangleShape m_marker;
     Map m_map;
+    sf::Texture m_goblinTexture;
     std::vector<Ennemies> m_ennemies;
 
 public:

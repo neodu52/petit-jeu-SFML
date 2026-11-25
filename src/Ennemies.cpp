@@ -1,13 +1,10 @@
 #include "Ennemies.hpp"
 
-Ennemies::Ennemies(sf::Vector2f position, float vie, float vitesse, float degat)
-    : m_sprite(m_texture), m_vie(vie), m_vitesse(vitesse), m_degat(degat)
+Ennemies::Ennemies(const sf::Texture& texture, sf::Vector2f position,
+                   float vie, float vitesse, float degat)
+    : m_sprite(texture), m_vie(vie), m_vitesse(vitesse), m_degat(degat)
 {
-    if (!m_texture.loadFromFile("assets/textures/gobelin.png"))
-        std::cerr << "Texture gobelin introuvable\n";
-
-    m_sprite.setTexture(m_texture, true);
-    sf::Vector2u t = m_texture.getSize();
+    sf::Vector2u t = texture.getSize();
     m_sprite.setOrigin({t.x / 2.f, t.y / 2.f});
     m_sprite.setPosition(position);
 }
@@ -23,9 +20,22 @@ void Ennemies::update(float dt, sf::Vector2f playerPos, const Map& map)
 
     // à toi : déplacement axe par axe avec map.isSolidRect,
     // exactement comme dans Player::update
+
+    m_sprite.move({movement.x, 0.f});
+    if (map.isSolidRect(m_sprite.getPosition(), m_halfSize))
+        m_sprite.move({-movement.x, 0.f});   // on annule
+
+    // axe Y
+    m_sprite.move({0.f, movement.y});
+    if (map.isSolidRect(m_sprite.getPosition(), m_halfSize))
+    {
+        m_sprite.move({0.f, -movement.y});
+    }
+
+    m_sprite.setRotation(movement.angle() + sf::degrees(90));
 }
 
 void Ennemies::draw(sf::RenderWindow& window)
 {
-    window.draw(m_shape);
+    window.draw(m_sprite);
 }
